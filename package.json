@@ -7,7 +7,7 @@
         "gitbook": ">=3.0.0-pre.0"
     },
     "scripts": {
-        "build": "./node_modules/webpack/bin/webpack.js --config webpack.config.js",
+        "build": "webpack --config webpack.config.js",
         "coverage": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --timeout 60000",
         "test": "mocha --timeout 60000"
     },
